@@ -288,22 +288,39 @@ nav li {
 
   }
 
+  .information-items .info-block {
+  width: 100%;
+}
+
  .info-block .image-container {
-   width: 90%;
+   width: 100%;
    padding: 1rem;
   
   }
 
- .info-block img {
-  max-width: 100%;
+  .image-container img.desktop {
+  display: none;
+  }
 
+  .image-container img.mobile {
+  display: block;
+  
+  }
+  
+ .info-block img {
+  width: 100%;
+  height: auto;
+  padding: 0;
   }
 
   .info-block {
-  display: flex;
   flex-flow: column;
-  align-items: left;
+  align-items: auto;
 
+  }
+  
+  .info-block .content {
+  align-self: flex-start;
   }
 
 }
