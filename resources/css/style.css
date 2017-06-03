@@ -6,20 +6,14 @@ body {
   line-height: 1;
   color: DimGray;
   margin: 0;
-
 }
-
 
 .center {
   text-align: center;
 }
 
-
-
 .container, .flex {
   display: flex;
-
-
 }
 
 .image-container {
@@ -27,11 +21,9 @@ body {
   align-items: center;
 }
 
-
 a {
   text-decoration: none;
 }
-
 
 a:active {
   color:darkred;
@@ -52,11 +44,10 @@ a:active {
 }
 
 @media only screen and (max-width: 768px) {
-
     nav.desktop {
       display: none;
     }
-
+    
     nav.mobile {
       display: block;
     }
@@ -64,11 +55,7 @@ a:active {
 
 /* Header */
 
-
-
-
 header {
-
   width: 100%;
   height: 64px;
   margin: 0;
@@ -76,9 +63,7 @@ header {
   z-index: 10;
   background-color: white;
   border-bottom: 1px solid darkgrey;
-
 }
-
 
 header .content {
   display: flex;
@@ -88,7 +73,6 @@ header .content {
 
 header .logo {
   flex: 1;
-
 }
 
 header img {
@@ -108,7 +92,6 @@ header #academy {
   font-weight: 400;
 }
 
-
 header nav ul {
   display: flex;
 }
@@ -117,15 +100,12 @@ nav.mobile {
   display: none;
 }
 
-
 nav li {
   padding-right: 16px;
   color: inherit;
-
 }
 
 @media only screen and (max-width: 768px) {
-
   .logo span {
     display: none;
   }
@@ -145,8 +125,6 @@ nav li {
 }
 
 
-
-
 /* Content Section */
 
 .main-content {
@@ -157,14 +135,11 @@ nav li {
   /* Main Banner */
 
 .banner {
-
-
 }
 
 .banner-image {
   margin: 32px 24px;
   flex: 2 3 60%;
-
 }
 
 .banner-image img {
@@ -184,11 +159,8 @@ nav li {
   line-height: 2.5rem
 }
 
-
 .banner-text h3 {
   line-height: 2.5rem
-
-
 }
 
 .button {
@@ -205,18 +177,16 @@ nav li {
 
 .button a {
   color: white;
-
 }
 
 @media only screen and (max-width: 768px) {
+  
   .banner-image {
     display: none;
-  
   }
 
 .banner {
   padding-top:3rem;
-  
   }
 
 }
@@ -225,7 +195,6 @@ nav li {
   /* Information block */
 
 .information {
-
 }
 
 .information-main {
@@ -254,7 +223,6 @@ nav li {
 .information-items {
   display: flex;
   min-width: 423px;
-
   padding: 32px 16px;
   flex-direction: column;
 }
@@ -278,24 +246,21 @@ nav li {
 
 .info-block .content {
   padding: 0.5rem;
-
 }
 
 @media only screen and (max-width: 768px) {
 
   .information-main {
   display: none;
-
   }
 
   .information-items .info-block {
   width: 100%;
-}
+  }
 
  .info-block .image-container {
    width: 100%;
    padding: 1rem;
-  
   }
 
   .image-container img.desktop {
@@ -304,7 +269,6 @@ nav li {
 
   .image-container img.mobile {
   display: block;
-  
   }
   
  .info-block img {
@@ -316,7 +280,6 @@ nav li {
   .info-block {
   flex-flow: column;
   align-items: auto;
-
   }
   
   .info-block .content {
@@ -324,7 +287,6 @@ nav li {
   }
 
 }
-
 
   /* Learning block */
 
@@ -334,17 +296,13 @@ nav li {
   align-items: center;
 }
 
-
-
 .courses-block {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0px;
   max-width: 1024px;
-
 }
-
 
 .course {
   background-color: white;
@@ -361,13 +319,11 @@ nav li {
   max-width: 100%;
 }
 
-
 .course .content {
   display: flex;
   flex-flow: column;
   text-align: left;
   padding: 16px 16px 24px 16px;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -424,13 +380,11 @@ nav li {
 }
 
 .video-container {
-
 }
 
 .video-container video {
   width: 100%;
 }
-
 
 .samples-items {
   display: flex;
@@ -438,7 +392,6 @@ nav li {
   padding: 32px 16px;
   flex-direction: column;
 }
-
 
 @media only screen and (max-width: 768px) {
 
@@ -449,7 +402,6 @@ nav li {
   .samples-items {
     display: none;
   }
-
 
 }
 
